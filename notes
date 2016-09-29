@@ -1,0 +1,4 @@
+vim james-test 
+./james-test > test_textbox
+whiptail --textbox test_textbox 25 80
+

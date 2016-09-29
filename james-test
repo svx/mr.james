@@ -25,14 +25,14 @@ cat << "EOF"
           .--.
          /    \
         ## a  a
-        (   '._)
-         |'-- |
+        (   '._)                Mr. Henry
+         |'-- |                 ---------
        _.\___/_   ________
-     ."\> \Y/|<'.  '._.-'
-    /  \ \_\/ /  '-' /
-    | --'\_/|/ |   _/
+     ."\> \Y/|<'.  '._.-'       How do you do.
+    /  \ \_\/ /  '-' /          May I introduce myself? I'm Henry.
+    | --'\_/|/ |   _/           Glad to be your helping hand.
     |___.-' |  |`'`
-      |     |  |
+      |     |  |                Please let me know how I can help !
       |    / './
      /__./` | |
         \   | |
@@ -44,12 +44,6 @@ cat << "EOF"
 EOF
 }
 
-reader=`read cloudprovider`
 
 # Display the logo
 display_logo
-echo -en "$COL_YELLOW Hello $USER, how I can help you ?$COL_RESET\n"
-echo -en "$COL_GREEN James, please deploy to "$reader" $COL_RESET\n"
-#read cloudprovider
-echo -en "$COL_YELLOW Very well I will prepare $cloudprovider. \n
- In the meantime can I offer you a beverage to shorten your waiting time ? $COL_RESET\n"
